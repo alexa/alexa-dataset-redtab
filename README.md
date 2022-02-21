@@ -20,12 +20,12 @@ Each row represents a column-pair relation annotation in a format of:
 Left, Relation, Right, L_id, R_id, Table
 ```
 
-`Left`: contains the header for one of the column in the column pair. It is called 'Left' because the header is placed to the left of the relation name.
-`Relation`: contains the annotated relation between the column pair.
-`Right`: contains the header for one of the column in the column pair. It is called 'Right' because the header is placed to the right of the relation name.
-`L_id`: The index of the `Left` column header in the table.
-`R_id`: The index of the `Right` column header in the table.
-`Table`: The filename of the table. The {filename}.json can be found in Tables/ folder
+`Left`: contains the header for one of the column in the column pair. It is called 'Left' because the header is placed to the left of the relation name.  
+`Relation`: contains the annotated relation between the column pair.  
+`Right`: contains the header for one of the column in the column pair. It is called 'Right' because the header is placed to the right of the relation name.  
+`L_id`: The index of the `Left` column header in the table.  
+`R_id`: The index of the `Right` column header in the table.  
+`Table`: The filename of the table. The {filename}.json can be found in Tables/ folder  
 
 Note: Either one of the `L_id` or `R_id` is the index of the main column which be referred in `keyColumnIndex` in the table file present in Tables/ folder.
 
