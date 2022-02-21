@@ -16,9 +16,9 @@ The table data can be found in `Tables` folder. The tables in this dataset are i
 The annotated data can be found in `REDTab-standard` or `REDTab-simple`, depending on the category. In each folder, the data is in .csv format, divided into train and test split. 
 
 Each row represents a column-pair relation annotation in a format of:
----------------
+```
 Left, Relation, Right, L_id, R_id, Table
----------------
+```
 
 `Left`: contains the header for one of the column in the column pair. It is called 'Left' because the header is placed to the left of the relation name.
 `Relation`: contains the annotated relation between the column pair.
@@ -32,9 +32,9 @@ Note: Either one of the `L_id` or `R_id` is the index of the main column which b
 
 For example:
 
----------------
+```
 Author, is the author of, Attachment Name, 5, 1, 6c1f39b3-b060-4970-81ec-5a15c7c71583.json
----------------
+```
 
 This row explains that in a table from `Tables/6c1f39b3-b060-4970-81ec-5a15c7c71583.json`, the 5th column (header name is Author) is the author of the 1st column (header name is Attachment Name).
 
