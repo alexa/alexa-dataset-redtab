@@ -49,3 +49,24 @@ This project is licensed under the CC-BY-4.0 License.
 The web tables are a structured set of data made up of rows and columns, and come from largest corpora of relational Web tables from the Common Crawl which is available for public download, called Web Data Commons or WDC (http://webdatacommons.org/webtables/). We randomly sampled part of the dataset, extracted all the column headers, and chose relations that were useful in Music and Literature domain of web-tables. According to WDC, the web tables in its corpora are derived from Common Crawl (http://commoncrawl.org/). The web tables in REDTab are provided “as is” for the user’s convenience. Amazon has no license rights in, or ownership of, the web tables in REDTab. 
 
 The annotations in REDTab are human-annotated, high quality relations that connect column pairs in a table, and are licensed under a Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/). 
+
+
+## Citation
+If you use this dataset, please cite the following paper:
+
+```
+@inproceedings{singh-etal-2022-relation,
+    title = "A Relation Extraction Dataset for Knowledge Extraction from Web Tables",
+    author = "Singh, Siffi  and
+      Aji, Alham Fikri  and
+      Singh, Gaurav  and
+      Christodoulopoulos, Christos",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.203",
+    pages = "2319--2327"
+}
+```
