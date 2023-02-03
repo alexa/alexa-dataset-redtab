@@ -1,6 +1,7 @@
 ## REDTab: A Relation Extraction Dataset for Knowledge Extraction from Web Tables
 
 Authors: Siffi Singh, Alham Fikri Aji, Gaurav Singh, and Christos Christodoulopoulos
+
 Paper: https://aclanthology.org/2022.coling-1.203/
 
 This repository hosts the REDTab dataset, the largest natural-table relation extraction dataset. In our dataset, we have a total of 9,149 tables, and 22,236 column pairs from Music and Literature domains. We release two categories of REDTab:
